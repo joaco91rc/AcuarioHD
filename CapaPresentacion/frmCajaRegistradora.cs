@@ -55,6 +55,7 @@ namespace CapaPresentacion
             
             cboTipoMovimiento.Items.Add(new OpcionCombo() { Valor = 1, Texto = "ENTRADA" });
             cboTipoMovimiento.Items.Add(new OpcionCombo() { Valor = 0, Texto = "SALIDA" });
+            cboTipoMovimiento.Items.Add(new OpcionCombo() { Valor = 2, Texto = "DEVOLUCION" });
             cboTipoMovimiento.DisplayMember = "Texto";
             cboTipoMovimiento.ValueMember = "Valor";
             cboTipoMovimiento.SelectedIndex = 0;
